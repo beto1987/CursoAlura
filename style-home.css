@@ -1,0 +1,77 @@
+.banner {
+    width: 100%;
+    display: inline;
+    position: relative;
+}
+
+.principal {
+    background: #cccccc;
+    padding: 30px;
+}
+
+.principal h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.titulo-principal{
+    padding-left: 5%;
+}
+
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px 15%;
+}
+
+.missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #ffffff;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.beneficios li{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0 1.5%;
+    padding: 7px 20px;
+}
+
+.itens-beneficios{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 10%;
+}
+
+.beneficios h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.imgbeneficios{
+    width: 20%;
+}
