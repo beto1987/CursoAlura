@@ -1,16 +1,20 @@
-body {
-    
-}
-
-#banner {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+.banner {
+    width: 70%;
+    display: inline;
+    position: relative;
+    vertical-align: center;
+    margin-left: 15%;
 }
 
 .principal {
     background: #cccccc;
     padding: 30px;
+}
+
+.principal h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
 }
 
 .titulo-principal{
@@ -24,9 +28,11 @@ body {
 
 p {
     text-align: center;
+    margin: 10px 0;
+    padding: 5px 15%;
 }
 
-#missao {
+.missao {
     font-size: 20px
 }
 
@@ -40,15 +46,34 @@ em strong {
 
 .beneficios {
     background: #ffffff;
-    padding: 20px;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
 }
 
-ul{
+.beneficios li{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0 1.5%;
+    padding: 7px 20px;
+}
+
+.itens-beneficios{
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
+
+.beneficios h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
 .imgbeneficios{
-    width: 50%;
+    width: 20%;
 }
